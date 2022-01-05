@@ -1,0 +1,86 @@
+---
+branches: 
+  - main
+tagFormat: "v${version}"
+plugins:
+  - "@semantic-release/commit-analyzer"
+  - "@semantic-release/release-notes-generator"
+  - "@semantic-release/changelog"
+  - "@google/semantic-release-replace-plugin"
+  - "@semantic-release/github"
+verifyConditions:
+  - "@semantic-release/github"
+  - '@semantic-release/git'
+analyzeCommits:
+  - path: "@semantic-release/commit-analyzer"
+    releaseRules:
+    - type: "feat"
+      release: "patch"
+    - type: "hotfix"
+      release: "patch"
+    - type: "patch"
+      release: "patch"
+    - type: "minor"
+      release: "minor"
+    - type: "breaking"
+      release: "major"
+generateNotes:
+  - path: "@semantic-release/release-notes-generator"
+    writerOpts:
+      groupBy: "type"
+      commitGroupsSort:
+        - "feat"
+        - "perf"
+        - "fix"
+      commitsSort: "header"
+    types:
+    - type: "feat"
+    - section: "Features"
+    # Tracked bug fix with a hotfix branch
+    - type: "hotfix"
+    - section: "Bug Fixes"
+    # Uninmportent fix (CI testing, etc)
+    - type: "fix"
+    - hidden: true
+    - type: "chore"
+    - hidden: true
+    - type: "docs"
+    - hidden: true
+    - type: "doc"
+    - hidden: true
+    - type: "style"
+    - hidden: true
+    - type: "refactor"
+    - hidden: true
+    - type: "perf"
+    - hidden: true
+    - type: "test"
+    - hidden: true
+    presetConfig: true
+prepare:
+  - path: "@google/semantic-release-replace-plugin"
+    replacements:
+      - files: ["**/*resume.json"]
+        from: "\"version\": \".*\""
+        to: "\"version\": \"${nextRelease.version}\""
+        countMatches: true
+  - path: "@semantic-release/changelog"
+    changelogFile: "CHANGELOG.md"
+    changelogTitle: |-
+        # Change log
+
+        All notable changes to this project are documented in this file.
+        See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+  - path: "@semantic-release/git"
+    assets: 
+      - "CHANGELOG.md"
+      - "**/*resume.json"
+    message: >
+        chore(release): Release <%= nextRelease.version %>- [skip ci]
+        <%= nextRelease.notes %>
+publish:
+  - path: "@semantic-release/github"
+    assets:
+      - path: "**/stijncallebaut.resume.json"
+        name: "stijncallebaut.resume-${nextRelease.gitTag}.json"
+        label: "Stijn Callebaut's (${nextRelease.gitTag}) resume"

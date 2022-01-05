@@ -1,0 +1,36 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/node,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,macos
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+### resume-cli  ###
+
+public
+
+### npm ###
+
+# Dependency directories
+node_modules/
+jspm_packages/
