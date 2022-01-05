@@ -5,14 +5,21 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - '**/README.md'
+      - LICENSE
   pull_request:
     types: [closed]
     branches:
       - main
+    paths-ignore:
+      - '**/README.md'
+      - LICENSE
 
 jobs:
   test:
     name: 'test'
+    if: "!contains(github.event.head_commit.message, 'skip ci') || !contains(github.event.head_commit.message, 'build(deps)')"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -29,7 +36,7 @@ jobs:
 
   release:
     name: release
-    if: "!contains(github.event.head_commit.message, 'skip ci')"
+    if: "!contains(github.event.head_commit.message, 'skip ci') || !contains(github.event.head_commit.message, 'build(deps)')"
     needs: test
     runs-on: ubuntu-latest
     steps:
