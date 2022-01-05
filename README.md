@@ -50,7 +50,7 @@ The repo comes with some handy vscode tasks preconfigured for your convenience.
 - [ ] enrich resume
   - [ ] add past presentations as projects
   - [ ] add interests (? maybe - as duplicate on site and profiles)
-- [ ] Enhance developer experience
+- [x] Enhance developer experience
   - [x] create devcontainer
     - [x] support json and markdown
     - [x] jsonresume cli
@@ -59,6 +59,7 @@ The repo comes with some handy vscode tasks preconfigured for your convenience.
     - [x] add test job using resume cli
     - [x] add release job using semantic release
     - [x] add dependabot for actions
+    - [x] exclude readme and pipeline updates to trigger the workflow
 
 ## Dev container setup
 
