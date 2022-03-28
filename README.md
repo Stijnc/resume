@@ -50,6 +50,7 @@ The repo comes with some handy vscode tasks preconfigured for your convenience.
 - [ ] enrich resume
   - [ ] add past presentations as projects
   - [ ] add interests (? maybe - as duplicate on site and profiles)
+  - [x] add skills
 - [x] Enhance developer experience
   - [x] create devcontainer
     - [x] support json and markdown
