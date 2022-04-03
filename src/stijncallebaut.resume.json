@@ -60,7 +60,7 @@
                 "Azure advanced specialization - Identity and Access Management",
                 "Azure advanced specialization - Threat Protection",
                 "Git driven Operations (GitOps) as a standard in our managed services to scale beyond people.",
-                "Creating end-to-end transparancy from start to finish"
+                "Creating end-to-end transparancy from start to finish within our managed service offerings"
             ]
         },
         {
@@ -120,7 +120,8 @@
             "summary": "The Belgian PowerShell user group (BEPUG) brings Belgian PowerShell enthousiast together. Our goal is bring people with a powershell interest together so we stimulate learning in a social and open environment."
         },
         {
-            "organization": "System Center User Group Belgium (SCUG)",
+            "organization": "System Center User Group Belgium (SCUG)- now beemug",
+            "url": "https://scug.be",
             "position": "Active member",
             "startDate": "2011",
             "endDate": "2018",
