@@ -138,7 +138,7 @@
         "url": "https://stijn.run",
         "type": "application"
     }],
-    "awards": [{ 
+    "awards": [{
         "title": "PowerShell Hero",
         "date": "2016",
         "awarder": "Powershell.org",
