@@ -102,9 +102,9 @@
         }
     ],
     "volunteer": [{
-
             "organization": "Microsoft PAC - Azure Infrastructure",
             "position": "Active member",
+            "startDate": "2021",
             "summary": "As one of the 20 global Partner Advisory Council (PAC) members Stijn provides valuable insights that increase the success of Microsoft products, services and field engagement through ongoing feedback and twice-annual PAC meetings",
             "highlights": [
                 "provide input and feedback on product and solution direction, business model development, roadmap and sales and marketing execution",
@@ -114,12 +114,16 @@
         },
         {
             "organization": "Belgian PowerShell User Group (BEPUG)",
+            "url": "https://bepug.dev",
+            "startDate": "2018",
             "position": "Community organizer",
             "summary": "The Belgian PowerShell user group (BEPUG) brings Belgian PowerShell enthousiast together. Our goal is bring people with a powershell interest together so we stimulate learning in a social and open environment."
         },
         {
             "organization": "System Center User Group Belgium (SCUG)",
             "position": "Active member",
+            "startDate": "2011",
+            "endDate": "2018",
             "summary": "As an active member I help in organizing events and actively contribute in speaking engagements"
         }
     ],
