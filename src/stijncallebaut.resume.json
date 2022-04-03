@@ -1,246 +1,256 @@
 {
-    "basics": {
-        "name": "Stijn Callebaut",
-        "location": {
-            "countryCode": "BE",
-            "city": "Brussels"
-        },
-        "url": "https://callebaut.io",
-        "summary": "I'm Stijn Callebaut, COO at DexMach. I like running, the outdoors, a good book from time to time and lego. At DexMach I help put focus on operational excellence, and I engage in customers cloud journeys to have direct feedback.",
-        "profiles": [{
-                "network": "LinkedIn",
-                "username": "stijncallebaut",
-                "url": "https://www.linkedin.com/in/stijncallebaut/"
-            },
-            {
-                "network": "Twitter",
-                "username": "stijnca",
-                "url": "https://twitter.com/stijnca"
-            },
-            {
-                "network": "Github",
-                "username": "stijnc",
-                "url": "https://github.com/stijnc"
-            },
-            {
-                "network": "Goodreads",
-                "username": "stijnca",
-                "url": "https://goodreads.com/stijnca"
-            }
-        ]
+  "basics": {
+    "name": "Stijn Callebaut",
+    "location": {
+      "countryCode": "BE",
+      "city": "Brussels"
     },
-    "work": [{
-            "position": "Head of operations",
-            "name": "DexMach",
-            "description": "DexMach is a cloud consultancy firm enabling customers' cloud ambition(s)",
-            "url": "https://www.dexmach.com",
-            "summary": "Stijn drives operational excellence at DexMach services, both professional and managed services. He believes openness and inclusiveness is key for organizational and professional growth.",
-            "startDate": "2022",
-            "highlights": [
-                "streamline the hiring process with people growth",
-                "Generate support for new dexmach operational opportunities and services",
-                "Generate support across delivery and technical circles to continiously improve services",
-                "Managing Partner alliances, including Microsoft, Github and KPMG"
-            ]
-        }, {
-            "position": "Chief Technology Officer",
-            "name": "DexMach",
-            "description": "DexMach is a cloud consultancy firm enabling customers' cloud ambition(s)",
-            "url": "https://www.dexmach.com",
-            "summary": "Stijn helps put focus on the technology that matters and he engages in customers cloud journey's to have direct feedback. He is the main driver behind the Azure Expert MSP and Advanced specialization audits, which we obtained several years in a row now. The change to git driven operations (gitops) enabled us to scale beyond people and enabling us to focus on human interactions to improve our services and interactions with clients.",
-            "startDate": "2019",
-            "endDate": "2022",
-            "highlights": [
-                "Azure Expert MSP",
-                "Azure advanced specialization - Windows Server and SQL Server Migration",
-                "Azure advanced specialization - Linux and Open Source Databases Migration",
-                "Azure advanced specialization - Kubernetes",
-                "Azure advanced specialization - Microsoft Windows Virtual Desktop (AVD)",
-                "Azure advanced specialization - Modernization of Web Applications",
-                "Azure advanced specialization - Identity and Access Management",
-                "Azure advanced specialization - Threat Protection",
-                "Git driven Operations (GitOps) as a standard in our managed services to scale beyond people.",
-                "Creating end-to-end transparancy from start to finish within our managed service offerings"
-            ]
-        },
-        {
-            "position": "Solution Architect",
-            "name": "DexMach",
-            "description": "DexMach is a cloud consultancy firm enabling customers' cloud ambition(s)",
-            "url": "https://www.dexmach.com",
-            "summary": "Full focus on Azure consultancy. Founder of the dexbrix catalog - a set of standardized services deployable cross tenants (customers).",
-            "startDate": "2017",
-            "endDate": "2019"
-        },
-        {
-            "position": "Consultant",
-            "name": "DexMach",
-            "description": "Inovativ was the leading Microsoft System Center implementor in Belgium and the Netherlands",
-            "url": "https://www.dexmach.com",
-            "summary": "Consultant with a focus on System Center Service Manager (SCSM), Microsoft's ITSM tooling. Embracing SCSM ment a shift from technical implementations to understanding business requests, with a strong focus on standardization. The last couple of years, my focus shifted to incorporating Azure, with a first highlight of Platform as a Service (PaaS).",
-            "startDate": "2012",
-            "endDate": "2017"
-        },
-        {
-            "position": "Senior Analyst",
-            "name": "Avanade",
-            "description": "Avanade is a joined venture of Accenture and Microsoft. A services provider with a focus on the Microsoft ecosystem",
-            "url": "https://www.avanade.com",
-            "summary": "Providing Microsoft focused consultancy, ranging from IAM services (Forefront Identity Manager) to Device management (Configuration Manageer).",
-            "startDate": "2011",
-            "endDate": "2012"
-        },
-        {
-            "position": "Operations Engineer",
-            "name": "Econocom",
-            "description": "Econocom is a European group that carries out projects in digital transformation for firms and public organisations",
-            "url": "https://www.econocom.com",
-            "summary": "Providing operational long term support for customers. First at Procter & Gamble with a focus on networking and Novell for the BeNeLux sites - Brussels, Mechelen, Rotterdam and Coevoorden. After a couple of years I moved to a Microsoft Configuration Manager focused role at Engie Electrabel Brussels and Antwerp.",
-
-            "startDate": "2005",
-            "endDate": "2011"
-        }
-    ],
-    "volunteer": [{
-            "organization": "Microsoft PAC - Azure Infrastructure",
-            "position": "Active member",
-            "startDate": "2021",
-            "summary": "As one of the 20 global Partner Advisory Council (PAC) members Stijn provides valuable insights that increase the success of Microsoft products, services and field engagement through ongoing feedback and twice-annual PAC meetings",
-            "highlights": [
-                "provide input and feedback on product and solution direction, business model development, roadmap and sales and marketing execution",
-                "foster exchange of ideas and information between partners and Microsoft",
-                "drive interaction with partners to deliver One Microsoft"
-            ]
-        },
-        {
-            "organization": "Belgian PowerShell User Group (BEPUG)",
-            "url": "https://bepug.dev",
-            "startDate": "2018",
-            "position": "Community organizer",
-            "summary": "The Belgian PowerShell user group (BEPUG) brings Belgian PowerShell enthousiast together. Our goal is bring people with a powershell interest together so we stimulate learning in a social and open environment."
-        },
-        {
-            "organization": "System Center User Group Belgium (SCUG)- now beemug",
-            "url": "https://scug.be",
-            "position": "Active member",
-            "startDate": "2011",
-            "endDate": "2018",
-            "summary": "As an active member I help in organizing events and actively contribute in speaking engagements"
-        }
-    ],
-    "projects": [{
-        "name": "Stijn.run",
-        "description": "My personal url shortener using Azure static web apps",
-        "keywords": [
-            "html",
-            "nodejs"
-        ],
-        "url": "https://stijn.run",
-        "type": "application"
-    }],
-    "awards": [{
-        "title": "PowerShell Hero",
-        "date": "2016",
-        "awarder": "Powershell.org",
-        "summary": "A PowerShell Hero is someone who you feel does an outstanding job helping the community, perhaps by answering questions in forums (here or elsewhere), writing useful blog posts, offering education, and more."
-    }],
-    "education": [{
-            "institution": "Hogeschool voor wetenshap en kunst (WENK) - now Odisee",
-            "area": "Applied Information technology",
-            "studyType": "Bachelor",
-            "startDate": "2003",
-            "endDate": "2005"
-        },
-        {
-            "institution": "Ehsal management school",
-            "area": "Applied Economics",
-            "studyType": "Bachelor",
-            "startDate": "2001",
-            "endDate": "2003"
-        },
-        {
-            "institution": "Sint-Jan Berchmanscollege",
-            "area": "mathematics & Economics",
-            "studyType": "Secondary school",
-            "startDate": "1993",
-            "endDate": "2001"
-        }
-    ],
-    "languages": [{
-            "language": "Dutch",
-            "fluency": "native language"
-        },
-        {
-            "language": "French",
-            "fluency": "Good"
-        },
-        {
-            "language": "English",
-            "fluency": "Good"
-        }
-    ],
-    "skills": [{
-            "name": "Cloud platform",
-            "keywords": [
-                "Azure",
-                "FinOps",
-                "Architecture",
-                "Monitoring",
-                "Automation",
-                "Azure Resource Manager (ARM)",
-                "IaaS",
-                "PaaS",
-                "GitOps",
-                "Kubernetes (AKS)",
-                "Security",
-                "Cloud Native",
-                "Serverless"
-            ]
-        },
-        {
-            "name": "Kubernetes",
-            "keywords": [
-                "GitOps (flux, flagger)",
-                "Service Mesh (istio, open service mesh)",
-                "Container security",
-                "Admission Controller (OPA gatekeeper)",
-                "Container runtime security",
-                "Docker"
-            ]
-        },
-        {
-            "name": "Scripting",
-            "keywords": [
-                "Bash",
-                "PowerShell",
-                "Python"
-            ]
-        },
-        {
-            "name": "DevOps",
-            "keywords": [
-                "Azure DevOps",
-                "Github",
-                "Sprint planning",
-                "CI/CD",
-                "Security",
-                "Gitflow"
-            ]
-        },
-        {
-            "name": "Soft skills",
-            "keywords": [
-                "Team player",
-                "Coaching",
-                "Collaboration",
-                "Planning",
-                "Ownership",
-                "Integrity"
-            ]
-        }
-    ],
-    "meta": {
-        "lastModified": "2022-01-05",
-        "version": "1.0.0"
+    "url": "https://callebaut.io",
+    "summary": "I'm Stijn Callebaut, COO at DexMach. I like running, the outdoors, a good book from time to time and lego. At DexMach I help put focus on operational excellence, and I engage in customers cloud journeys to have direct feedback.",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "stijncallebaut",
+        "url": "https://www.linkedin.com/in/stijncallebaut/"
+      },
+      {
+        "network": "Twitter",
+        "username": "stijnca",
+        "url": "https://twitter.com/stijnca"
+      },
+      {
+        "network": "Github",
+        "username": "stijnc",
+        "url": "https://github.com/stijnc"
+      },
+      {
+        "network": "Goodreads",
+        "username": "stijnca",
+        "url": "https://goodreads.com/stijnca"
+      }
+    ]
+  },
+  "work": [
+    {
+      "position": "Head of operations",
+      "name": "DexMach",
+      "description": "DexMach is a cloud consultancy firm enabling customers' cloud ambition(s)",
+      "url": "https://www.dexmach.com",
+      "summary": "Stijn drives operational excellence at DexMach services, both professional and managed services. He believes openness and inclusiveness is key for organizational and professional growth.",
+      "startDate": "2022",
+      "highlights": [
+        "streamline the hiring process with people growth",
+        "Generate support for new dexmach operational opportunities and services",
+        "Generate support across delivery and technical circles to continiously improve services",
+        "Managing Partner alliances, including Microsoft, Github and KPMG"
+      ]
+    },
+    {
+      "position": "Chief Technology Officer",
+      "name": "DexMach",
+      "description": "DexMach is a cloud consultancy firm enabling customers' cloud ambition(s)",
+      "url": "https://www.dexmach.com",
+      "summary": "Stijn helps put focus on the technology that matters and he engages in customers cloud journey's to have direct feedback. He is the main driver behind the Azure Expert MSP and Advanced specialization audits, which we obtained several years in a row now. The change to git driven operations (gitops) enabled us to scale beyond people and enabling us to focus on human interactions to improve our services and interactions with clients.",
+      "startDate": "2019",
+      "endDate": "2022",
+      "highlights": [
+        "Azure Expert MSP",
+        "Azure advanced specialization - Windows Server and SQL Server Migration",
+        "Azure advanced specialization - Linux and Open Source Databases Migration",
+        "Azure advanced specialization - Kubernetes",
+        "Azure advanced specialization - Microsoft Windows Virtual Desktop (AVD)",
+        "Azure advanced specialization - Modernization of Web Applications",
+        "Azure advanced specialization - Identity and Access Management",
+        "Azure advanced specialization - Threat Protection",
+        "Git driven Operations (GitOps) as a standard in our managed services to scale beyond people.",
+        "Creating end-to-end transparancy from start to finish within our managed service offerings"
+      ]
+    },
+    {
+      "position": "Solution Architect",
+      "name": "DexMach",
+      "description": "DexMach is a cloud consultancy firm enabling customers' cloud ambition(s)",
+      "url": "https://www.dexmach.com",
+      "summary": "Full focus on Azure consultancy. Founder of the dexbrix catalog - a set of standardized services deployable cross tenants (customers).",
+      "startDate": "2017",
+      "endDate": "2019"
+    },
+    {
+      "position": "Consultant",
+      "name": "DexMach",
+      "description": "Inovativ was the leading Microsoft System Center implementor in Belgium and the Netherlands",
+      "url": "https://www.dexmach.com",
+      "summary": "Consultant with a focus on System Center Service Manager (SCSM), Microsoft's ITSM tooling. Embracing SCSM ment a shift from technical implementations to understanding business requests, with a strong focus on standardization. The last couple of years, my focus shifted to incorporating Azure, with a first highlight of Platform as a Service (PaaS).",
+      "startDate": "2012",
+      "endDate": "2017"
+    },
+    {
+      "position": "Senior Analyst",
+      "name": "Avanade",
+      "description": "Avanade is a joined venture of Accenture and Microsoft. A services provider with a focus on the Microsoft ecosystem",
+      "url": "https://www.avanade.com",
+      "summary": "Providing Microsoft focused consultancy, ranging from IAM services (Forefront Identity Manager) to Device management (Configuration Manageer).",
+      "startDate": "2011",
+      "endDate": "2012"
+    },
+    {
+      "position": "Operations Engineer",
+      "name": "Econocom",
+      "description": "Econocom is a European group that carries out projects in digital transformation for firms and public organisations",
+      "url": "https://www.econocom.com",
+      "summary": "Providing operational long term support for customers. First at Procter & Gamble with a focus on networking and Novell for the BeNeLux sites - Brussels, Mechelen, Rotterdam and Coevoorden. After a couple of years I moved to a Microsoft Configuration Manager focused role at Engie Electrabel Brussels and Antwerp.",
+      "startDate": "2005",
+      "endDate": "2011"
     }
+  ],
+  "volunteer": [
+    {
+      "organization": "Microsoft PAC - Azure Infrastructure",
+      "position": "Active member",
+      "startDate": "2021",
+      "summary": "As one of the 20 global Partner Advisory Council (PAC) members Stijn provides valuable insights that increase the success of Microsoft products, services and field engagement through ongoing feedback and twice-annual PAC meetings",
+      "highlights": [
+        "provide input and feedback on product and solution direction, business model development, roadmap and sales and marketing execution",
+        "foster exchange of ideas and information between partners and Microsoft",
+        "drive interaction with partners to deliver One Microsoft"
+      ]
+    },
+    {
+      "organization": "Belgian PowerShell User Group (BEPUG)",
+      "url": "https://bepug.dev",
+      "startDate": "2018",
+      "position": "Community organizer",
+      "summary": "The Belgian PowerShell user group (BEPUG) brings Belgian PowerShell enthousiast together. Our goal is bring people with a powershell interest together so we stimulate learning in a social and open environment."
+    },
+    {
+      "organization": "System Center User Group Belgium (SCUG)- now beemug",
+      "url": "https://scug.be",
+      "position": "Active member",
+      "startDate": "2011",
+      "endDate": "2018",
+      "summary": "As an active member I help in organizing events and actively contribute in speaking engagements"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Stijn.run",
+      "description": "My personal url shortener using Azure static web apps",
+      "keywords": [
+        "html",
+        "nodejs"
+      ],
+      "url": "https://stijn.run",
+      "type": "application"
+    }
+  ],
+  "awards": [
+    {
+      "title": "PowerShell Hero",
+      "date": "2016",
+      "awarder": "Powershell.org",
+      "summary": "A PowerShell Hero is someone who you feel does an outstanding job helping the community, perhaps by answering questions in forums (here or elsewhere), writing useful blog posts, offering education, and more."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Hogeschool voor wetenshap en kunst (WENK) - now Odisee",
+      "area": "Applied Information technology",
+      "studyType": "Bachelor",
+      "startDate": "2003",
+      "endDate": "2005"
+    },
+    {
+      "institution": "Ehsal management school",
+      "area": "Applied Economics",
+      "studyType": "Bachelor",
+      "startDate": "2001",
+      "endDate": "2003"
+    },
+    {
+      "institution": "Sint-Jan Berchmanscollege",
+      "area": "mathematics & Economics",
+      "studyType": "Secondary school",
+      "startDate": "1993",
+      "endDate": "2001"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Dutch",
+      "fluency": "native language"
+    },
+    {
+      "language": "French",
+      "fluency": "Good"
+    },
+    {
+      "language": "English",
+      "fluency": "Good"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cloud platform",
+      "keywords": [
+        "Azure",
+        "FinOps",
+        "Architecture",
+        "Monitoring",
+        "Automation",
+        "Azure Resource Manager (ARM)",
+        "IaaS",
+        "PaaS",
+        "GitOps",
+        "Kubernetes (AKS)",
+        "Security",
+        "Cloud Native",
+        "Serverless"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "keywords": [
+        "GitOps (flux, flagger)",
+        "Service Mesh (istio, open service mesh)",
+        "Container security",
+        "Admission Controller (OPA gatekeeper)",
+        "Container runtime security",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Scripting",
+      "keywords": [
+        "Bash",
+        "PowerShell",
+        "Python"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Azure DevOps",
+        "Github",
+        "Sprint planning",
+        "CI/CD",
+        "Security",
+        "Gitflow"
+      ]
+    },
+    {
+      "name": "Soft skills",
+      "keywords": [
+        "Team player",
+        "Coaching",
+        "Collaboration",
+        "Planning",
+        "Ownership",
+        "Integrity"
+      ]
+    }
+  ],
+  "meta": {
+    "lastModified": "2022-04-03",
+    "version": "1.0.1"
+  }
 }
