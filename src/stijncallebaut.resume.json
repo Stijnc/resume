@@ -138,6 +138,12 @@
         "url": "https://stijn.run",
         "type": "application"
     }],
+    "awards": [{ 
+        "title": "PowerShell Hero",
+        "date": "2016",
+        "awarder": "Powershell.org",
+        "summary": "A PowerShell Hero is someone who you feel does an outstanding job helping the community, perhaps by answering questions in forums (here or elsewhere), writing useful blog posts, offering education, and more."
+    }],
     "education": [{
             "institution": "Hogeschool voor wetenshap en kunst (WENK) - now Odisee",
             "area": "Applied Information technology",
