@@ -128,6 +128,16 @@
             "summary": "As an active member I help in organizing events and actively contribute in speaking engagements"
         }
     ],
+    "projects": [{
+        "name": "Stijn.run",
+        "description": "My personal url shortener using Azure static web apps",
+        "keywords": [
+            "html",
+            "nodejs"
+        ],
+        "url": "https://stijn.run",
+        "type": "application"
+    }],
     "education": [{
             "institution": "Hogeschool voor wetenshap en kunst (WENK) - now Odisee",
             "area": "Applied Information technology",
