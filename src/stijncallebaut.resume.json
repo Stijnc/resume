@@ -40,8 +40,8 @@
       "startDate": "2022",
       "highlights": [
         "streamline the hiring process with people growth",
-        "Generate support for new dexmach operational opportunities and services",
-        "Generate support across delivery and technical circles to continiously improve services",
+        "Generate support for new Dexmach operational opportunities and services",
+        "Generate support across delivery and technical circles to continuously improve services",
         "Managing Partner alliances, including Microsoft, Github and KPMG"
       ]
     },
@@ -80,7 +80,7 @@
       "name": "DexMach",
       "description": "Inovativ was the leading Microsoft System Center implementor in Belgium and the Netherlands",
       "url": "https://www.dexmach.com",
-      "summary": "Consultant with a focus on System Center Service Manager (SCSM), Microsoft's ITSM tooling. Embracing SCSM ment a shift from technical implementations to understanding business requests, with a strong focus on standardization. The last couple of years, my focus shifted to incorporating Azure, with a first highlight of Platform as a Service (PaaS).",
+      "summary": "Consultant with a focus on System Center Service Manager (SCSM), Microsoft's ITSM tooling. Embracing SCSM meant a shift from technical implementations to understanding business requests, with a strong focus on standardization. The last couple of years, my focus shifted to incorporating Azure, with a first highlight of Platform as a Service (PaaS).",
       "startDate": "2012",
       "endDate": "2017"
     },
@@ -89,7 +89,7 @@
       "name": "Avanade",
       "description": "Avanade is a joined venture of Accenture and Microsoft. A services provider with a focus on the Microsoft ecosystem",
       "url": "https://www.avanade.com",
-      "summary": "Providing Microsoft focused consultancy, ranging from IAM services (Forefront Identity Manager) to Device management (Configuration Manageer).",
+      "summary": "Providing Microsoft focused consultancy, ranging from IAM services (Forefront Identity Manager) to Device management (Configuration Manager).",
       "startDate": "2011",
       "endDate": "2012"
     },
@@ -120,7 +120,7 @@
       "url": "https://bepug.dev",
       "startDate": "2018",
       "position": "Community organizer",
-      "summary": "The Belgian PowerShell user group (BEPUG) brings Belgian PowerShell enthousiast together. Our goal is bring people with a powershell interest together so we stimulate learning in a social and open environment."
+      "summary": "The Belgian PowerShell user group (BEPUG) brings Belgian PowerShell enthousiasts together. Our goal is bring people with a powershell interest together so we stimulate learning in a social and open environment."
     },
     {
       "organization": "System Center User Group Belgium (SCUG)- now beemug",
