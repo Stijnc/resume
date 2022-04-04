@@ -28,6 +28,8 @@ npm-debug.log*
 ### resume-cli  ###
 
 public
+*.pdf
+*.html
 
 ### npm ###
 

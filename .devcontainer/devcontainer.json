@@ -22,7 +22,8 @@
 		"streetsidesoftware.code-spell-checker",
 		"davidanson.vscode-markdownlint",
 		"shd101wyy.markdown-preview-enhanced",
-		"mohsen1.prettify-json"
+		"mohsen1.prettify-json",
+		"tomoki1207.pdf"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
