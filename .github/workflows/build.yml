@@ -60,3 +60,10 @@ jobs:
           GIT_AUTHOR_EMAIL: "info@callebaut.dev"
           GIT_COMMITTER_NAME: "callebaut-bot"
           GIT_COMMITTER_EMAIL: "info@callebaut-dev"
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: stijnc/personal-site
+          event-type: my-resume
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
