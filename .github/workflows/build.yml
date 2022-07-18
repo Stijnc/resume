@@ -25,7 +25,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
       - name: Setup Node
-        uses: actions/setup-node@v2.5.1
+        uses: actions/setup-node@v3.4.1
         with:
           node-version: 16
       - name: install resume-cli
@@ -43,7 +43,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
       - name: Setup Node
-        uses: actions/setup-node@v2.5.1
+        uses: actions/setup-node@v3.4.1
       - name: Add plugin for conventional commits
         run: npm install @semantic-release/git -D && npm install @semantic-release/changelog -D && npm install @google/semantic-release-replace-plugin -D
       - name: Get current date
