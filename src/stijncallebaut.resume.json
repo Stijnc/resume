@@ -15,7 +15,7 @@
                 "url": "https://www.linkedin.com/in/stijncallebaut/"
             },
             {
-                "network": "Twitter",
+                "network": "X (Twitter)",
                 "username": "stijnca",
                 "url": "https://twitter.com/stijnca"
             },
@@ -36,13 +36,15 @@
             "name": "DexMach",
             "description": "DexMach is a cloud consultancy firm enabling customers' cloud ambition(s)",
             "url": "https://www.dexmach.com",
-            "summary": "Stijn drives operational excellence at DexMach services, both professional and managed services. He believes openness and inclusiveness is key for organizational and professional growth.",
+            "summary": "Stijn is dedicated to driving operational excellence at DexMach services, encompassing both professional and managed services. With a firm belief in the principles of openness and inclusiveness, he recognizes these as pivotal factors for organizational and professional growth. Stijn is also at the forefront of aligning with Cegeka group departments, subsidiaries, and countries to propel cloud capabilities forward. Through the establishment of a group cloud center of excellence (CCoE), he is pioneering the integration of InnerSource techniques, fostering collaboration and innovation across the organization.",
             "startDate": "2022",
             "highlights": [
                 "Streamline the hiring process with people growth",
                 "Generate support for new DexMach operational opportunities and services",
                 "Generate support across delivery and technical circles to continuously improve services",
-                "Managing Partner alliances, including Microsoft, Github and KPMG"
+                "Managing Partner alliances, including Microsoft, Github",
+                "Align with Cegeka group - departments, subsidiaries and countries (Belgium, Netherlands, Italy) stakeholders to drive cloud capabilities",
+                "Establish a Cloud Center of Excellence (CCoE) within Cegeka group using InnerSource techniques."
             ]
         },
         {
@@ -62,8 +64,8 @@
                 "Azure advanced specialization - Modernization of Web Applications",
                 "Azure advanced specialization - Identity and Access Management",
                 "Azure advanced specialization - Threat Protection",
-                "Git driven Operations (GitOps) as a standard in our managed services to scale beyond people.",
-                "Creating end-to-end transparancy from start to finish within our managed service offerings"
+                "Git driven Operations (GitOps) as a standard in our managed services to scale beyond people",
+                "Creating end-to-end transparency from start to finish within our managed service offerings."
             ]
         },
         {
@@ -71,7 +73,7 @@
             "name": "DexMach",
             "description": "DexMach is a cloud consultancy firm enabling customers' cloud ambition(s)",
             "url": "https://www.dexmach.com",
-            "summary": "Full focus on Azure consultancy. Founder of the dexbrix catalog - a set of standardized services deployable cross tenants (customers).",
+            "summary": "Full focus on Azure consultancy. Creator of the dexbrix catalog - a catalog of standardized services deployable cross tenants (customers).",
             "startDate": "2017",
             "endDate": "2019"
         },
@@ -198,7 +200,9 @@
                 "Kubernetes (AKS)",
                 "Security",
                 "Cloud Native",
-                "Serverless"
+                "Serverless",
+                "InnerSource",
+                "GitHub"
             ]
         },
         {
