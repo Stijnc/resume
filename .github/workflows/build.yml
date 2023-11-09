@@ -48,7 +48,7 @@ jobs:
         run: npm install @semantic-release/git -D && npm install @semantic-release/changelog -D && npm install @google/semantic-release-replace-plugin -D
       - name: Get current date
         id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
       - name: update resume.json
         run: echo "`jq '.meta.lastModified="${{ steps.date.outputs.date }}"' stijncallebaut.resume.json`" > stijncallebaut.resume.json
         working-directory: ./src
