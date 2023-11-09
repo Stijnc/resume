@@ -3,6 +3,13 @@
 All notable changes to this project are documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/Stijnc/resume/compare/v1.0.1...v1.0.2) (2023-11-09)
+
+
+### Features
+
+* add cgk group experience ([885e145](https://github.com/Stijnc/resume/commit/885e14506ffb529ef09d378411e2a7ae5482d7ac))
+
 ## [1.0.1](https://github.com/Stijnc/resume/compare/v1.0.0...v1.0.1) (2022-04-03)
 
 
