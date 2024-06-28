@@ -8,7 +8,7 @@
     "email": "stijn.callebaut@outlook.be",
     "phone": "+32472171912",
     "url": "https://callebaut.io",
-    "summary": "I'm Stijn Callebaut, COO at DexMach. I like running, the outdoors, a good book from time to time and lego. At DexMach I help put focus on operational excellence, and I engage in customers cloud journeys to have direct feedback.",
+    "summary": "I'm Stijn Callebaut, Cloud Solution lead at UCB. I like running, the outdoors, a good book from time to time and lego. At UCB I drive operational excellence within the cloud team, help put focus on the technology that matters. I believe openness and inclusiveness are key for organizational and professional growth, and I engage in stakeholders' cloud journeys to have direct feedback.",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -33,6 +33,20 @@
     ]
   },
   "work": [
+    {
+      "position": "Cloud solution lead",
+      "name": "UCB",
+      "description": "UCB is a global biopharma company, inspired by the needs of people living with severe diseases",
+      "url": "https://www.ucb.com",
+      "summary": "Stijn is dedicated to driving operational excellence at UCB, focussing on cloud services. With a firm belief in the principles of openness and inclusiveness, he recognizes these as pivotal factors for organizational and professional growth. Stijn is driving the alignment with Stakeholders to propel cloud capabilities forward. Stijn is also actively engaged in the digital sustainability ambitions of UCB",
+      "startDate": "2024",
+      "highlights": [
+        "Generate support for Cloud team operational opportunities and services",
+        "Security first and growth mindset",
+        "Transversal focus",
+        "Digital sustainability member - focusing on cloud"
+      ]
+    },
     {
       "position": "Head of operations - COO",
       "name": "DexMach",
