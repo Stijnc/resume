@@ -25,7 +25,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
       - name: Setup Node
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.0.3
         with:
           node-version: ">=20.8.1"
       - name: install resume-cli
@@ -43,7 +43,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
       - name: Setup Node
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.0.3
         with:
           node-version: ">=20.8.1"
       - name: Add plugin for conventional commits
