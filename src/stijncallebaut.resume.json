@@ -34,6 +34,19 @@
   },
   "work": [
     {
+      "position": "DT sustainability lead",
+      "name": "UCB",
+      "description": "UCB is a global biopharma company, inspired by the needs of people living with severe diseases",
+      "url": "https://www.ucb.com",
+      "summary": "As Digital Technology (DT) Sustainability Lead, Stijn is responsible for embedding sustainability into UCB's digital strategy. He aligns digital initiatives with UCB's broader sustainability goals, ensuring that technology contributes to positive environmental, social, and ethical outcomes.",
+      "startDate": "2025",
+      "highlights": [
+        "Promote digital solutions that enhance innovation in a sustainable manner",
+        "Drive the Sustainable IT level 2 label certification",
+        "Lead initiatives on responsible technology practices, including carbon awareness and sustainable architecture"
+      ]
+    },
+    {
       "position": "Cloud solution lead",
       "name": "UCB",
       "description": "UCB is a global biopharma company, inspired by the needs of people living with severe diseases",
@@ -156,10 +169,7 @@
     {
       "name": "Stijn.run",
       "description": "My personal url shortener using Azure static web apps",
-      "keywords": [
-        "html",
-        "nodejs"
-      ],
+      "keywords": ["html", "nodejs"],
       "url": "https://stijn.run",
       "type": "application"
     }
@@ -243,11 +253,7 @@
     },
     {
       "name": "Scripting",
-      "keywords": [
-        "Bash",
-        "PowerShell",
-        "Python"
-      ]
+      "keywords": ["Bash", "PowerShell", "Python"]
     },
     {
       "name": "DevOps",
